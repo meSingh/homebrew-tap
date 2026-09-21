@@ -1,9 +1,9 @@
 cask "sukhi-play" do
   arch arm: "AppleSilicon", intel: "Intel"
 
-  version "1.0.15"
-  sha256 arm:   "62915639c416117ba11e28e5c1eb029459a1f849113e36c819ba89947d0bc725",
-         intel: "e9dfe7bd56d65cf1eee5b4898ab104e8a9e3f7e8fefda318d198ff00965f948e"
+  version "1.0.16"
+  sha256 arm:   "748d14b1b5fb80a3be06f9282344bd19f9729a8f4d7f7ab302a07006bf0d938a",
+         intel: "06e323720d36a42cda7ff4a5eff8bc83574d727ac906bdf587fd1d97147070f1"
 
   url "https://github.com/meSingh/sukhi-play/releases/download/v#{version}/Sukhi-Play-macOS-#{arch}.dmg"
   name "Sukhi Play"
