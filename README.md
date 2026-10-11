@@ -23,4 +23,4 @@ Sukhi Play is signed but not notarised, so macOS blocks the first launch and
 the cask says how to allow it. That is also why it is here rather than in
 homebrew/cask, which no longer accepts software Gatekeeper cannot verify.
 
-Formulae install from the signed release tarballs, not a git checkout, and pin the release checksum.
+Formulae install the prebuilt release binaries, not a git checkout, and pin each checksum.
