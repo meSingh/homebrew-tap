@@ -3,13 +3,13 @@
 Homebrew formulae for [meSingh](https://github.com/meSingh)'s tools. Works on macOS, and on Linux via Homebrew.
 
 ```bash
-brew install meSingh/tap/polinrider-cleaner
+brew install meSingh/tap/polinrider-scanner
 polinrider
 ```
 
 | Formula | What it is |
 |---|---|
-| [`polinrider-cleaner`](Formula/polinrider-cleaner.rb) | Detect and clean up after the PolinRider supply-chain campaign. Read-only by default. [Source](https://github.com/meSingh/polinrider-cleaner) |
+| [`polinrider-scanner`](Formula/polinrider-scanner.rb) | Detect and clean up after the PolinRider supply-chain campaign. Read-only by default. [Source](https://github.com/meSingh/polinrider-scanner). Called `polinrider-cleaner` up to 2.3.0; `brew upgrade` moves an existing install to the new name. |
 
 | Cask | What it is |
 |---|---|
