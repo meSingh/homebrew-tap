@@ -1,30 +1,30 @@
 class PolinriderScanner < Formula
   desc "Detect and clean up after the PolinRider supply-chain campaign"
   homepage "https://github.com/meSingh/polinrider-scanner"
-  version "3.2.0"
+  version "3.3.0"
   license "MIT"
 
   # One prebuilt binary per platform, from the signed release. Each archive
   # carries the binary with its indicator set (ioc/) beside it.
   on_macos do
     on_arm do
-      url "https://github.com/meSingh/polinrider-scanner/releases/download/v3.2.0/polinrider-v3.2.0-macos-arm64.tar.gz"
-      sha256 "e6b5691cef5885d27009ac538e1d79e83b372b4a0da6d53f0ec65c7cce4ab366"
+      url "https://github.com/meSingh/polinrider-scanner/releases/download/v3.3.0/polinrider-v3.3.0-macos-arm64.tar.gz"
+      sha256 "d81b6196e5034a9ee39adfc4e153d51c5e63f0e255c325a87fee005e9f2891dd"
     end
     on_intel do
-      url "https://github.com/meSingh/polinrider-scanner/releases/download/v3.2.0/polinrider-v3.2.0-macos-x86_64.tar.gz"
-      sha256 "a87d3bba505274c3f03981f2d63520f64eaad2cefe117e65d491f18f17b6168a"
+      url "https://github.com/meSingh/polinrider-scanner/releases/download/v3.3.0/polinrider-v3.3.0-macos-x86_64.tar.gz"
+      sha256 "255e1b2d06f5a68f90c13d51678d2242cdef00e97b01cd9e40dc06ff64059a37"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/meSingh/polinrider-scanner/releases/download/v3.2.0/polinrider-v3.2.0-linux-arm64.tar.gz"
-      sha256 "a0d27905025ba8ccbbf1dfd2b173ec5f21534c3a7c75ec86b9e57f68cffcf06b"
+      url "https://github.com/meSingh/polinrider-scanner/releases/download/v3.3.0/polinrider-v3.3.0-linux-arm64.tar.gz"
+      sha256 "75428305a0f3db501e7e525c5a81f967feb6dd1829eca1c3c340e4e062370f43"
     end
     on_intel do
-      url "https://github.com/meSingh/polinrider-scanner/releases/download/v3.2.0/polinrider-v3.2.0-linux-x86_64.tar.gz"
-      sha256 "a9538916ab50797d0ae87b1834122fce4139f30aeae1800087aa6e487c6262c9"
+      url "https://github.com/meSingh/polinrider-scanner/releases/download/v3.3.0/polinrider-v3.3.0-linux-x86_64.tar.gz"
+      sha256 "94ab8a93659a0f48a3e122e9ad2469b705f333b00de6d1c19a88f48d3afa9dd5"
     end
   end
 
