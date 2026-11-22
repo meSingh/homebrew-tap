@@ -34,6 +34,7 @@ class PolinriderScanner < Formula
     bin.install "polinrider"
     (share/"polinrider").install "ioc"
     doc.install "DISCLAIMER.md"
+    man1.install "polinrider.1"
   end
 
   def caveats
